@@ -1,1 +1,6 @@
-[]
+[
+  "capgun.coffee",
+  "darksky.coffee",
+  "futurama.coffee",
+  "meme_generator.coffee"
+]
