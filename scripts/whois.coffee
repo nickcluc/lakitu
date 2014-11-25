@@ -4,6 +4,11 @@
 # Notes:
 #   prints out repository info
 #
+# Commands:
+#   who is hubot - prints out repository info
+#
+# Author:
+#   radavis
 
 module.exports = (robot) ->
   robot.hear /who is lakitu/i, (msg) ->
