@@ -11,8 +11,9 @@
 #   nclucas
 
 
-totos = "www.youtube.com/watch?v=FTQbiNvZqaY"
+
+totos = "http://www.youtube.com/watch?v=FTQbiNvZqaY"
 
 module.exports = (robot) ->
-  robot.hear /lakitu bless the rains/i, (msg) ->
+  robot.hear /bless the rains/i, (msg) ->
     msg.send totos
